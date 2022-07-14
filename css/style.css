@@ -40,14 +40,14 @@ body {
     height: 40px;
     margin-top: 30px;
 }
-.navigate_buttons{
-
-    
+.c{
+    color: black;
 }
-.navigate_buttons a{
-    color: #777777;
-    text-decoration: none;
-    margin-top: 20px;
+.nc{
+    color: #8a8a8a;
+}
+.b{
+    margin-top: 30px;
 }
 .navigate_buttons a:hover{
     color: black;
@@ -60,8 +60,9 @@ body {
 }
 .h-line{
     height: 1px;
-    background-color: #d3d3d3;
+    background-color: rgba(230, 230, 230, 1);;
     margin-top: -10px;
     width: 20px;
 }
+
 
