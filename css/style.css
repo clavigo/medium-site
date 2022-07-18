@@ -98,6 +98,9 @@ body {
     font-size: 23px;
     
 }
+.news_content{
+    padding-right: 50px;
+}
 .td{
     text-decoration: none;
 }
