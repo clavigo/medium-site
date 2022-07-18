@@ -32,7 +32,6 @@ body {
     width: 50%;
     min-width: 600px;
     max-width: 800px;
-    height: 1000vh;
     display: inline-block;              
     left: 100px;             
     transform: translate(0, -0%);
