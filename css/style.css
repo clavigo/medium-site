@@ -8,6 +8,7 @@ body {
     "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 .header{
     width: 10%;
@@ -16,6 +17,7 @@ body {
     position: fixed;
     text-align: center;
     border-right: 1px #d3d3d3 solid;
+    display: inline-block;
 }
 .header_in{
     position: absolute;
@@ -28,24 +30,29 @@ body {
 }
 .main{
     padding: 20px 10px;
-    margin: 15px 15%;
+    margin: 15px 20%;
+    /* margin-left: 100px; */
     width: 50%;
     min-width: 650px;
     max-width: 800px;
-    display: inline-block;              
-    left: 100px;             
-    transform: translate(0, -0%);
-    position: absolute;
+    display: inline-block;
+    /* position: absolute; */
 }
 .other{
-    padding: 10px;
-    width: 20%;
-    height: 100%;
-    display: inline-block;              
-    right: 0;      
-    position: fixed;
-    text-align: center;
-    /* border-left: 1px #d3d3d3 solid; */
+    padding: 0 30px;
+    width: 25%;
+    height: 200vh;
+    min-width: 280px;
+    position: absolute;
+    right: 0;
+    display: inline-block;
+    border-left: 1px #d3d3d3 solid;
+    /* border: 1px solid black; */
+}
+.other_in{
+    /* border: 1px solid black; */
+    height: 1800px;
+    
 }
 .medium_logo{
     width: 55px;
@@ -82,6 +89,7 @@ body {
     background-color: rgba(230, 230, 230, 1);;
     margin-top: -10px;
     width: 20px;
+    border: 0;
 }
 .following{
     margin-right: 20px;
@@ -190,4 +198,73 @@ body {
 .ra{
     justify-content: space-between;
 }
-
+.cd{
+    background: rgb(20, 20, 20);
+}
+.ca{
+    color: aliceblue;
+}
+.cb {
+    padding: 7px 16px 9px;
+}
+.cl {
+    border-radius: 99em;
+}
+.ae {
+    width: 100%;
+}
+.cp {
+    display: inline-block;
+}
+.me{
+    padding-top: 40px;
+}
+.lh{
+    border: 0;
+}
+.mn {
+    outline: none;
+}
+.hk {
+    border: 1px solid rgba(230, 230, 230, 1);
+}
+.cf {
+    padding: 3px 9px;
+}
+.rp {
+    background-color: rgb(26, 137, 23);
+}
+.nw{
+    width: 8px;
+    height: 8px;
+}
+.nz {
+    flex: 0 0 auto;
+}
+.fh {
+    font-weight: 500;
+}
+.he{
+    font-weight: 700;
+}
+.bg {
+    margin: 0;
+}
+.bf {
+    padding: 0;
+}
+.fk {
+    letter-spacing: 0;
+}
+.tb{
+    text-align: center;
+}
+.by {
+    color: rgba(41, 41, 41, 1);
+}
+.b {
+    font-weight: 400;
+}
+.kf {
+    color: rgba(26, 137, 23, 1);
+}
