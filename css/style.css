@@ -175,6 +175,9 @@ body {
 .tl{
     -webkit-line-clamp: 3;
 }
+.pq {
+    -webkit-line-clamp: 2;
+}
 .pi{
     -webkit-box-orient: vertical;
 }
@@ -192,6 +195,9 @@ body {
 }
 .qf{
     font-size: 13px;
+}
+.qg{
+    font-size: 14px;
 }
 .ts{
     padding: 3px 8px;
@@ -228,6 +234,9 @@ body {
 }
 .hk {
     border: 1px solid rgba(230, 230, 230, 1);
+}
+.hg{
+    border: 1px solid rgba(41, 41, 41, 1);;;
 }
 .cf {
     padding: 3px 9px;
@@ -304,4 +313,17 @@ body {
 }
 .ri {
     padding: 8px 16px;
+}
+.rf{
+    padding: 4px 12px 6px;
+}
+.kd {
+    margin-left: 16px;
+}
+.pf {
+    margin-top: 4px;
+}
+.hb{
+    height: 32px;
+    width: 66px;
 }
