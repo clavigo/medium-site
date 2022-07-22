@@ -66,9 +66,9 @@ body {
 .ncl{
     color: #8a8a8a;
 }
-.b{
+/* .b{
     margin-top: 30px;
-}
+} */
 .profile_picture{
     
     margin-bottom: 30px;
@@ -292,4 +292,16 @@ body {
 }
 .ho {
     color: rgba(117, 117, 117, 1);
+}
+.er {
+    flex-wrap: wrap;
+}
+.eq {
+    align-items: flex-start;
+}
+.nc {
+    margin-bottom: 10px;
+}
+.ri {
+    padding: 8px 16px;
 }
