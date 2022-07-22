@@ -43,6 +43,7 @@ body {
     width: 25%;
     height: 200vh;
     min-width: 280px;
+    
     position: absolute;
     right: 0;
     display: inline-block;
@@ -52,7 +53,7 @@ body {
 .other_in{
     /* border: 1px solid black; */
     height: 1800px;
-    
+    max-width: 300px;
 }
 .medium_logo{
     width: 55px;
@@ -94,7 +95,7 @@ body {
 .following{
     margin-right: 20px;
 }
-.news_block{
+.mg{
     margin-top: 40px;
 }
 .author{
@@ -262,9 +263,33 @@ body {
 .by {
     color: rgba(41, 41, 41, 1);
 }
+.hu{
+    fill: rgba(41, 41, 41, 1);;
+}
 .b {
     font-weight: 400;
 }
 .kf {
     color: rgba(26, 137, 23, 1);
+}
+.rs {
+    width: 90px;
+}
+.qz{
+    padding: 10px 30px 30px;
+}
+.rc {
+    margin: 20px 0px;
+}
+.hi{
+    justify-content: center;
+}
+.th{
+    height: 37px;
+}
+.qy {
+    fill: rgb(56, 161, 243);
+}
+.ho {
+    color: rgba(117, 117, 117, 1);
 }
