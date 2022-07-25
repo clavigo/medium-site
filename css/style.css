@@ -37,14 +37,17 @@ body {
     max-width: 800px;
     display: inline-block;
     /* position: absolute; */
+
 }
 .other{
     padding: 0 30px;
     width: 25%;
-    height: 200vh;
     min-width: 280px;
-    
-    position: absolute;
+    position: fixed;
+    /* position: absolute; */
+    top: 0;
+    bottom: 0;
+    overflow: auto;
     right: 0;
     display: inline-block;
     border-left: 1px #d3d3d3 solid;
@@ -52,7 +55,6 @@ body {
 }
 .other_in{
     /* border: 1px solid black; */
-    height: 1800px;
     max-width: 300px;
 }
 .medium_logo{
@@ -326,4 +328,16 @@ body {
 .hb{
     height: 32px;
     width: 66px;
+}
+.rw{
+    fill: rgb(117, 117, 117);
+}
+.ev{
+    vertical-align: middle;
+}
+.ax {
+    flex-direction: row;
+}
+.ni {
+    font-size: 11px;
 }
