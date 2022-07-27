@@ -344,6 +344,7 @@ body {
 .ni {
     font-size: 11px;
 }
+/* Scroll Bar */
 .other::-webkit-scrollbar{
     width: 0;
     background: transparent;
