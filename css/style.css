@@ -52,6 +52,9 @@ body {
     display: inline-block;
     border-left: 1px #d3d3d3 solid;
     /* border: 1px solid black; */
+    overflow: scroll;
+    overflow-x: hidden;
+    
 }
 .other_in{
     /* border: 1px solid black; */
@@ -340,4 +343,22 @@ body {
 }
 .ni {
     font-size: 11px;
+}
+.other::-webkit-scrollbar{
+    width: 0;
+    background: transparent;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background: #818181;
+    border-radius: 5px;
+    border: white 2px solid;
+}
+::-webkit-scrollbar-thumb:hover{
+    background: #6d6d6d;
 }
