@@ -103,6 +103,9 @@ body {
 .mg{
     margin-top: 40px;
 }
+.mj{
+    margin-top: 5px;
+}
 .author{
     font-size: 13px;
 }
@@ -305,7 +308,7 @@ body {
     fill: rgb(56, 161, 243);
 }
 .ho {
-    color: rgba(117, 117, 117, 1);
+    color: #757575;
 }
 .er {
     flex-wrap: wrap;
@@ -343,6 +346,69 @@ body {
 }
 .ni {
     font-size: 11px;
+}
+.aku {
+    background: rgb(7, 105, 159);
+}
+.abu{
+    fill: rgb(7, 105, 159);
+}
+.xl {
+    color: rgb(7, 105, 159);
+}
+.aks {
+    color: rgb(246, 255, 255);
+}
+.akt {
+    fill: rgb(246, 255, 255);
+}
+.akr {
+    stroke: rgb(246, 255, 255);
+}
+.kh{
+    height: 38px;
+}
+.jq {
+    height: 56px;
+}
+.gh{
+    margin-top: -30px;
+}
+.zb {
+    margin-right: 3px;
+}
+.kj{
+    height: 17px;
+}
+.zm {
+    max-width: 728px;
+}
+.rn {
+    margin-right: auto;
+}
+.rm {
+    margin-left: auto;
+}
+.ri{
+    background: rgb(226, 226, 226);
+}
+.gm {
+    border-radius: 4px;
+}
+.ma{
+    margin: 10px 0px;
+}
+.gi {
+    margin-right: 16px;
+}
+.tj {
+    padding: 0px 8px;
+}
+.yu{
+    margin: 1px 0;
+}
+.le{
+    margin-left: 28px;
 }
 /* Scroll Bar */
 .other::-webkit-scrollbar{
