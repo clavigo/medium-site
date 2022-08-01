@@ -410,6 +410,18 @@ body {
 .le{
     margin-left: 28px;
 }
+.acw {
+    font-size: 32px;
+}
+.xw {
+    color: rgb(55, 62, 65);
+}
+.sw {
+    font-size: 22px;
+}
+.mta{
+    margin-top: 10px;
+}
 /* Scroll Bar */
 .other::-webkit-scrollbar{
     width: 0;
