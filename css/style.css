@@ -90,6 +90,10 @@ body {
     color: black;
     transition: 0.5s;
 }
+.svg :hover{
+    fill: #000000;
+    transition: 0.5s;
+}
 .h-line{
     height: 1px;
     background-color: rgba(230, 230, 230, 1);;
