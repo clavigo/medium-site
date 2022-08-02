@@ -504,6 +504,16 @@ body {
 .zb {
     margin-right: 3px;
 }
+.ads{
+    border-top: #000000 solid 1px;
+}
+.pc{
+    padding: 20px 0;
+}
+.amc {
+
+    border: rgb(79, 86, 90) solid 1px;
+}
 /* Scroll Bar */
 .other::-webkit-scrollbar{
     width: 0;
