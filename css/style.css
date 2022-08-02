@@ -378,9 +378,6 @@ body {
 .gh{
     margin-top: -30px;
 }
-.zb {
-    margin-right: 3px;
-}
 .kj{
     height: 17px;
 }
@@ -500,6 +497,12 @@ body {
 }
 .aet {
     max-width: 100%;
+}
+.air {
+    margin-right: 5px;
+}
+.zb {
+    margin-right: 3px;
 }
 /* Scroll Bar */
 .other::-webkit-scrollbar{
