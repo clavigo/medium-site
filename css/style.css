@@ -426,6 +426,81 @@ body {
 .mta{
     margin-top: 10px;
 }
+.afv {
+    font-size: 66px;
+}
+.qk {
+    margin-right: 12px;
+}
+.afo {
+    font-size: 20px;
+}
+.afp {
+    margin-top: 2em;
+}
+.agn {
+    margin-top: 3.14em;
+}
+.sh {
+    font-size: 22px;
+}
+.agp {
+    padding-left: 30px;
+}
+.agt {
+    font-size: 28px;
+}
+.xk {
+    color: rgb(101, 109, 112);
+}
+.yw {
+    font-family: fell, Georgia, Cambria, "Times New Roman", Times, serif;
+}
+.agq {
+    line-height: 40px;
+}
+.ahn {
+    margin-top: 0.86em;
+}
+.xv {
+    background-color: rgb(217, 225, 229);
+}
+.ami {
+    color: currentcolor;
+}
+.aib {
+    width: 3px;
+    height: 3px;
+}
+.ahz {
+    background-color: rgb(28, 35, 38);
+}
+.zu{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.aid {
+    padding: 16px 20px;
+}
+.cy{
+    flex-direction: column;
+}
+.ail {
+    background-position: 50% 50%;
+}
+.aij {
+    background-size: cover;
+}
+.aih {
+    background-image: url("https://miro.medium.com/max/160/0*01pcYgDsnlx7ASss");
+}
+.aik {
+    height: 167px;
+    width: 160px;
+}
+.aet {
+    max-width: 100%;
+}
 /* Scroll Bar */
 .other::-webkit-scrollbar{
     width: 0;
