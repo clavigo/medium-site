@@ -417,6 +417,9 @@ body {
 .xw {
     color: rgb(55, 62, 65);
 }
+.xq{
+    fill: rgb(55, 62, 65);
+}
 .sw {
     font-size: 22px;
 }
@@ -513,6 +516,9 @@ body {
 .amc {
 
     border: rgb(79, 86, 90) solid 1px;
+}
+.alp {
+    padding-right: 160px;
 }
 /* Scroll Bar */
 .other::-webkit-scrollbar{
