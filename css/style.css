@@ -10,55 +10,69 @@ body {
     padding: 0;
     position: relative;
 }
+.m_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 .header{
     width: 10%;
     min-width: 100px;
     height: 100%;
-    position: fixed;
+    /* position: fixed; */
+    position: sticky;
     text-align: center;
     border-right: 1px #d3d3d3 solid;
-    display: inline-block;
+    display: block;
+    top: 0;
+    z-index: 500;
+    height: 100vh;
 }
 .header_in{
     position: absolute;
+    
     right: 0;
     width: 100px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
 }
 .main{
-    padding: 20px 10px;
-    margin: 15px 20%;
-    /* margin-left: 100px; */
+    padding: 20px 20px;
     width: 50%;
     min-width: 650px;
+    justify-content: center;
+    flex: 1 1 auto;
+    display: flex;
+}
+.main_in{
     max-width: 800px;
-    display: inline-block;
-    /* position: absolute; */
-
 }
 .other{
     padding: 0 30px;
     width: 25%;
     min-width: 280px;
-    position: fixed;
-    /* position: absolute; */
-    top: 0;
-    bottom: 0;
-    overflow: auto;
+    
+    position: sticky;
+    
     right: 0;
-    display: inline-block;
+    top: 0;
+    display: flex;
+    height: max-content;
     border-left: 1px #d3d3d3 solid;
     /* border: 1px solid black; */
-    overflow: scroll;
-    overflow-x: hidden;
     
+
 }
 .other_in{
     /* border: 1px solid black; */
     max-width: 300px;
+    
+    
+    
+   
 }
 .medium_logo{
     width: 55px;
@@ -373,10 +387,7 @@ body {
     height: 38px;
 }
 .jq {
-    height: 56px;
-}
-.gh{
-    margin-top: -30px;
+    padding-bottom: 20px;
 }
 .kj{
     height: 17px;
@@ -519,6 +530,17 @@ body {
 }
 .alp {
     padding-right: 160px;
+}
+.eo {
+    flex: 1 1 auto;
+}
+.aov {
+    background-color: rgb(226, 234, 238);
+}
+@media only screen and (max-width: 1200px) {
+    .other{
+        display: none;
+    }
 }
 /* Scroll Bar */
 .other::-webkit-scrollbar{
