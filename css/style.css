@@ -30,49 +30,48 @@ body {
 }
 .header_in{
     position: absolute;
-    
     right: 0;
     width: 100px;
     height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 .main{
-    padding: 20px 20px;
-    width: 50%;
-    min-width: 650px;
-    justify-content: center;
+    padding-top: 20px;
+    align-items: center;
+    /* justify-content: center; */
     flex: 1 1 auto;
     display: flex;
+    flex-direction: column;
 }
-.main_in{
+.main_in{ 
     max-width: 800px;
+}
+.fj{
+    max-width: 800px;
+}
+.more_from{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
 }
 .other{
     padding: 0 30px;
     width: 25%;
     min-width: 280px;
-    
     position: sticky;
-    
     right: 0;
     top: 0;
     display: flex;
     height: max-content;
     border-left: 1px #d3d3d3 solid;
     /* border: 1px solid black; */
-    
-
 }
 .other_in{
     /* border: 1px solid black; */
     max-width: 300px;
-    
-    
-    
-   
 }
 .medium_logo{
     width: 55px;
@@ -143,6 +142,9 @@ body {
 }
 .en {
     background-color: rgba(242, 242, 242, 1);
+}
+.ej{
+    background-color: rgb(223, 221, 221);
 }
 .qd {
     padding: 12px;
@@ -536,6 +538,9 @@ body {
 }
 .aov {
     background-color: rgb(226, 234, 238);
+}
+.asd{
+    padding: 0 20px;
 }
 @media only screen and (max-width: 1200px) {
     .other{
