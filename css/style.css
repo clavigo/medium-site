@@ -66,12 +66,14 @@ body {
     top: 0;
     display: flex;
     height: max-content;
+    
     border-left: 1px #d3d3d3 solid;
     /* border: 1px solid black; */
 }
 .other_in{
     /* border: 1px solid black; */
     max-width: 300px;
+    min-height: 100vh;
 }
 .medium_logo{
     width: 55px;
@@ -358,6 +360,9 @@ body {
 .rw{
     fill: rgb(117, 117, 117);
 }
+.rb{
+    color: rgb(117, 117, 117);
+}
 .ev{
     vertical-align: middle;
 }
@@ -372,6 +377,9 @@ body {
 }
 .abu{
     fill: rgb(7, 105, 159);
+}
+.abv{
+    background: #c79ac7;
 }
 .xl {
     color: rgb(7, 105, 159);
@@ -541,6 +549,9 @@ body {
 }
 .asd{
     padding: 0 20px;
+}
+.fd{
+    margin-top: 150px;
 }
 @media only screen and (max-width: 1200px) {
     .other{
