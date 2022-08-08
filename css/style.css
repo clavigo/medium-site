@@ -40,7 +40,6 @@ body {
 .main{
     padding-top: 20px;
     align-items: center;
-    /* justify-content: center; */
     flex: 1 1 auto;
     display: flex;
     flex-direction: column;
@@ -552,6 +551,29 @@ body {
 }
 .fd{
     margin-top: 150px;
+}
+.fl {
+    background-image: linear-gradient(to bottom, transparent, transparent), 
+    url(https://miro.medium.com/max/4096/1*FkMQAZm4UzsKYg6EwLonbg.jpeg);
+}
+.fe {
+    height: 150px;
+    width: 100%;
+}
+.fg {
+    background-size: cover;
+}
+.ff {
+    background-position: center;
+}
+.gv{
+    margin-top: -20px;
+}
+.gf{
+    margin: 50px 0;
+}
+.hv{
+    font-size: 42px;
 }
 @media only screen and (max-width: 1200px) {
     .other{
